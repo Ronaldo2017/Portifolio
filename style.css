@@ -1,0 +1,195 @@
+@charset "utf8";
+
+:root{
+    --cor-padrao: #3AA4E6;
+    --cor-secundaria: rgb(255, 255, 255);
+    --cor-terciaria:  wheat;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d8edfc81;
+}
+
+.portifolio{
+    text-align: center;
+    color: white;
+}
+
+header{
+    background-color: var(--cor-padrao);
+    width: 100%;
+}
+
+.contato{
+    float: right;
+    display: flex;
+}
+
+#linkedin{
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.foto{
+    margin-left: 10px;
+    border: 2px solid steelblue;
+}
+
+.dados{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+nav a{
+    margin-left: 5px;
+    margin-top: -100px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.experiencias > h2{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color: var(--cor-terciaria);
+    width: 350px;
+}
+
+main{
+    display: flex;
+    padding: 40px 30px;
+    background-color: white;
+    min-width: 400px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.linha{
+    width: 80px;
+    margin-top: -10px;
+    border-top: 2px solid;
+    margin-left: 16px;
+}
+
+.experiencias .linha{
+    border-color: blue;
+}
+
+.experiencias > ul{
+    list-style: none;
+}
+
+.conteudo{
+    margin-left: 24px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.periodo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.formacao > h2{
+    background-color: var(--cor-terciaria)
+    ;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 180px;
+}
+
+.formacao > .linha{
+    border-color: rgba(245, 245, 29, 0.897);
+    margin-top: 5px;
+}
+
+.formacao > ul{
+    list-style: none;
+}
+
+.coluna-maior > h2{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color: var(--cor-terciaria);
+    width: 180px;
+}
+
+.habilidades{
+    background-color: #f3e5ab;
+    border-radius: 16px;
+    margin: 12px;
+    width: 300px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
+    padding: 15px;
+}
+
+.habilidade > ul{
+    margin-left: 30px;
+    list-style: none;
+}
+
+.habilidade{
+    margin-left: 10px;
+}
+
+.progresso{
+    display: flex;
+    width: 100%;
+    /* margin-top: 5px; */
+    margin-bottom: 7px;
+}
+
+.barra{
+    width: 20%;
+    height: 4px;
+    background-color: #4200FF;
+    margin-top: 12px;
+}
+
+.incompleto{
+    opacity: 0.2;
+}
+
+.whatsapp{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+    float: right;
+    margin-right: 30px;
+    margin-top: 2px;
+    background: #31c01e;
+    color: white;
+    font-size: 2.3rem;
+    border: 1px solid #f1f1f1;
+}
+
+.botao_link{
+    color: inherit;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--cor-terciaria);
+    margin-top: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+
+
